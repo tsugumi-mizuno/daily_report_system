@@ -1,4 +1,5 @@
 package services;
+
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -14,8 +15,8 @@ import utils.EncryptUtil;
 /**
  * 従業員テーブルの操作に関わる処理を行うクラス
  */
+public class EmployeeService extends ServiceBase {
 
-public class EmployeeService {
     /**
      * 指定されたページ数の一覧画面に表示するデータを取得し、EmployeeViewのリストで返却する
      * @param page ページ数
